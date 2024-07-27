@@ -21,13 +21,6 @@
 
 <!-- PROJECT LOGO -->
 <br />
-<div align="center">
-  <a href="https://github.com/Berko01/Python-ELK-Log-Generator">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
-  <h3 align="center">Python-ELK-Log-Generator</h3>
-</div>
 
 <!-- TABLE OF CONTENTS -->
 <details>
