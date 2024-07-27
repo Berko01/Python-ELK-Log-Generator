@@ -48,7 +48,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](elk.jpeg)
+![Product Name Screen Shot](elk.jpeg)
 
 This project sets up an ELK (Elasticsearch, Logstash, Kibana) stack using Docker Compose. It includes a custom log generator service that produces log data and feeds it into Logstash, which then indexes the data in Elasticsearch. Kibana is used to visualize the log data stored in Elasticsearch.
 
