@@ -1,27 +1,10 @@
 README.md
-markdown
-Kodu kopyala
+
 # ELK Stack with Log Generator
 
 ## Project Description
 
 This project sets up an ELK (Elasticsearch, Logstash, Kibana) stack using Docker Compose. It includes a custom log generator service that produces log data and feeds it into Logstash, which then indexes the data in Elasticsearch. Kibana is used to visualize the log data stored in Elasticsearch.
-
-## Project Structure
-
-project-root/
-├── elasticsearch/
-├── logstash/
-│ ├── config/
-│ │ └── logstash.conf
-├── temp/
-│ └── inlog.log
-├── log_generator.py
-├── Dockerfile
-└── docker-compose.yml
-
-markdown
-Kodu kopyala
 
 ### Services Overview
 
@@ -68,8 +51,7 @@ Elasticsearch: Can be accessed via http://localhost:9200 (primarily for API call
 Log Generator and Logstash: These services run in the background and don't require direct access.
 Configuration Details
 Docker Compose
-yaml
-Kodu kopyala
+'''
 version: '3.6'
 services:
   elasticsearch:
@@ -171,6 +153,7 @@ output {
     }
     stdout { codec => rubydebug }
 }
+'''
 Log Generator Python Script
 python
 Kodu kopyala
