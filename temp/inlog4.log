@@ -106,3 +106,22 @@
 2024-07-27 08:23:09 - WARNING - User logged out
 2024-07-27 08:23:14 - ERROR - File not found
 2024-07-27 08:23:19 - ERROR - Reconnected to the server
+2024-07-27 08:23:24 - INFO - File not found
+2024-07-27 08:23:29 - ERROR - User logged out
+2024-07-27 08:23:34 - ERROR - File not found
+2024-07-27 08:23:39 - ERROR - Error while processing request
+2024-07-27 08:23:44 - ERROR - File not found
+2024-07-27 08:23:49 - INFO - Connection lost
+2024-07-27 08:23:54 - INFO - File not found
+2024-07-27 08:23:59 - INFO - User logged out
+2024-07-27 08:24:04 - DEBUG - User logged in
+2024-07-27 08:24:09 - WARNING - User logged out
+2024-07-27 08:24:14 - DEBUG - Error while processing request
+2024-07-27 08:24:19 - DEBUG - Connection lost
+2024-07-27 08:24:24 - DEBUG - Reconnected to the server
+2024-07-27 08:24:29 - ERROR - User logged in
+2024-07-27 08:24:34 - ERROR - File not found
+2024-07-27 08:24:39 - DEBUG - Connection lost
+2024-07-27 08:24:44 - WARNING - Error while processing request
+2024-07-27 08:24:49 - WARNING - File not found
+2024-07-27 08:24:54 - ERROR - Data saved successfully
