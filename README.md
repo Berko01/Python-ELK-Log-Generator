@@ -8,8 +8,6 @@
 *** Thanks again! Now go create something AMAZING! :D
 -->
 
-
-
 <!-- PROJECT SHIELDS -->
 <!--
 *** I'm using markdown "reference style" links for readability.
@@ -21,20 +19,15 @@
 [![Contributors][contributors-shield]][https://github.com/Berko01]
 [![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/berkindundar/]
 
-
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/Berko01/Python-ELK-Log-Generator">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Python-ELK-Log-Generator </h3>
-
+  <h3 align="center">Python-ELK-Log-Generator</h3>
 </div>
-
-
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -52,17 +45,16 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](/elk.jpeg)
+[![Product Name Screen Shot][product-screenshot]](elk.jpeg)
 
 This project sets up an ELK (Elasticsearch, Logstash, Kibana) stack using Docker Compose. It includes a custom log generator service that produces log data and feeds it into Logstash, which then indexes the data in Elasticsearch. Kibana is used to visualize the log data stored in Elasticsearch.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Services Overview
 
 1. **Elasticsearch**:
    - Stores and indexes log data.
@@ -83,10 +75,8 @@ This project sets up an ELK (Elasticsearch, Logstash, Kibana) stack using Docker
    - Generates log data and writes it to a log file.
    - Log data is read by Logstash and sent to Elasticsearch.
 
-
 ### Built With
 
-Major Frameworks/Libraries Used
 This project leverages the following major frameworks and libraries to set up and manage the ELK stack and the custom log generator:
 
 - **Docker**: Used to containerize the various services (Elasticsearch, Logstash, Kibana, and the log generator). Docker ensures that each service runs in an isolated environment, making the setup process straightforward and consistent across different environments.
@@ -96,26 +86,12 @@ This project leverages the following major frameworks and libraries to set up an
 - **Kibana**: An open-source data visualization and exploration tool used for reviewing the log data stored in Elasticsearch. It provides a user-friendly web interface to create visualizations, dashboards, and more.
 - **Python**: Used to write the custom log generator script. The script simulates log data generation and writes the logs to a file, which is then read by Logstash.
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
-
-## Setup Instructions
+This is an example of how you may give instructions on setting up your project locally. To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
@@ -128,9 +104,3 @@ This is an example of how to list things you need to use the software and how to
    git clone <repository_url>
    cd <repository_directory>
    docker-compose up --build
-   ```
-
-
-
-
-
