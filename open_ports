@@ -1,0 +1,4 @@
+New-NetFirewallRule -DisplayName "Allow Port 9200" -Direction Inbound -Protocol TCP -LocalPort 9200 -Action Allow
+New-NetFirewallRule -DisplayName "Allow Port 5601" -Direction Inbound -Protocol TCP -LocalPort 5601 -Action Allow
+New-NetFirewallRule -DisplayName "Allow Port 9600" -Direction Inbound -Protocol TCP -LocalPort 9600 -Action Allow
+New-NetFirewallRule -DisplayName "Allow Port 9300" -Direction Inbound -Protocol TCP -LocalPort 9300 -Action Allow

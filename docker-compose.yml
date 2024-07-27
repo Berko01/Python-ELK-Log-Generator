@@ -1,0 +1,131 @@
+version: '3.6'
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.8.2
+    container_name: elasticsearch
+    restart: always
+    volumes:
+      - elastic_data:/usr/share/elasticsearch/data
+    environment:
+      discovery.type: single-node
+      xpack.security.enabled: "false"
+      ES_JAVA_OPTS: "-Xmx256m -Xms256m"
+      network.host: "0.0.0.0"
+      http.port: "9200"
+    ports:
+      - '9200:9200'
+      - '9300:9300'
+    networks:
+      - elk
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fsSL http://localhost:9200/_cluster/health || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  logstash:
+    image: docker.elastic.co/logstash/logstash:8.8.2
+    container_name: logstash
+    restart: always
+    volumes:
+      - ./logstash/config/logstash.conf:/usr/share/logstash/config/logstash.conf
+      - ./temp:/usr/share/logstash/temp
+    command: logstash -f /usr/share/logstash/config/logstash.conf
+    depends_on:
+      elasticsearch:
+        condition: service_healthy
+    ports:
+      - '9600:9600'
+    environment:
+      LS_JAVA_OPTS: "-Xmx256m -Xms256m"
+    networks:
+      - elk
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fsSL http://localhost:9600 || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:8.8.2
+    container_name: kibana
+    restart: always
+    ports:
+      - '5601:5601'
+    environment:
+      ELASTICSEARCH_HOSTS: "http://elasticsearch:9200"
+    depends_on:
+      elasticsearch:
+        condition: service_healthy
+    networks:
+      - elk
+
+  log-generator-1:
+    build: .
+    container_name: log-generator-1
+    restart: always
+    environment:
+      LOG_FILE_PATH: /usr/share/logstash/temp/inlog1.log
+    volumes:
+      - ./temp:/usr/share/logstash/temp
+    depends_on:
+      elasticsearch:
+        condition: service_healthy
+      logstash:
+        condition: service_healthy
+    networks:
+      - elk
+
+  log-generator-2:
+    build: .
+    container_name: log-generator-2
+    restart: always
+    environment:
+      LOG_FILE_PATH: /usr/share/logstash/temp/inlog2.log
+    volumes:
+      - ./temp:/usr/share/logstash/temp
+    depends_on:
+      elasticsearch:
+        condition: service_healthy
+      logstash:
+        condition: service_healthy
+    networks:
+      - elk
+
+  log-generator-3:
+    build: .
+    container_name: log-generator-3
+    restart: always
+    environment:
+      LOG_FILE_PATH: /usr/share/logstash/temp/inlog3.log
+    volumes:
+      - ./temp:/usr/share/logstash/temp
+    depends_on:
+      elasticsearch:
+        condition: service_healthy
+      logstash:
+        condition: service_healthy
+    networks:
+      - elk
+
+  log-generator-4:
+    build: .
+    container_name: log-generator-4
+    restart: always
+    environment:
+      LOG_FILE_PATH: /usr/share/logstash/temp/inlog4.log
+    volumes:
+      - ./temp:/usr/share/logstash/temp
+    depends_on:
+      elasticsearch:
+        condition: service_healthy
+      logstash:
+        condition: service_healthy
+    networks:
+      - elk
+
+volumes:
+  elastic_data: {}
+
+networks:
+  elk:

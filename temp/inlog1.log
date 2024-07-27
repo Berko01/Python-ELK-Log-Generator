@@ -1,0 +1,108 @@
+2024-07-27 08:14:24 - INFO - User logged in
+2024-07-27 08:14:29 - DEBUG - Error while processing request
+2024-07-27 08:14:34 - WARNING - User logged in
+2024-07-27 08:14:39 - ERROR - Connection lost
+2024-07-27 08:14:44 - DEBUG - File not found
+2024-07-27 08:14:49 - DEBUG - Error while processing request
+2024-07-27 08:14:54 - ERROR - Error while processing request
+2024-07-27 08:14:59 - DEBUG - User logged out
+2024-07-27 08:15:04 - WARNING - User logged in
+2024-07-27 08:15:09 - DEBUG - User logged in
+2024-07-27 08:15:14 - DEBUG - Reconnected to the server
+2024-07-27 08:15:19 - INFO - User logged in
+2024-07-27 08:15:24 - ERROR - Connection lost
+2024-07-27 08:15:29 - DEBUG - File not found
+2024-07-27 08:15:34 - WARNING - User logged out
+2024-07-27 08:15:39 - ERROR - Connection lost
+2024-07-27 08:15:44 - ERROR - Error while processing request
+2024-07-27 08:15:49 - WARNING - User logged in
+2024-07-27 08:15:54 - ERROR - File not found
+2024-07-27 08:15:59 - ERROR - Error while processing request
+2024-07-27 08:16:04 - DEBUG - Error while processing request
+2024-07-27 08:16:09 - ERROR - File not found
+2024-07-27 08:16:14 - ERROR - Reconnected to the server
+2024-07-27 08:16:19 - WARNING - User logged in
+2024-07-27 08:16:24 - ERROR - User logged out
+2024-07-27 08:16:29 - INFO - User logged in
+2024-07-27 08:16:34 - WARNING - File not found
+2024-07-27 08:16:39 - WARNING - Connection lost
+2024-07-27 08:16:44 - WARNING - User logged out
+2024-07-27 08:16:49 - DEBUG - User logged out
+2024-07-27 08:16:54 - ERROR - Reconnected to the server
+2024-07-27 08:16:59 - DEBUG - Reconnected to the server
+2024-07-27 08:17:04 - DEBUG - Reconnected to the server
+2024-07-27 08:17:09 - ERROR - Reconnected to the server
+2024-07-27 08:17:14 - WARNING - Reconnected to the server
+2024-07-27 08:17:19 - ERROR - File not found
+2024-07-27 08:17:24 - DEBUG - Error while processing request
+2024-07-27 08:17:29 - ERROR - Connection lost
+2024-07-27 08:17:34 - DEBUG - Data saved successfully
+2024-07-27 08:17:39 - ERROR - User logged out
+2024-07-27 08:17:44 - DEBUG - Data saved successfully
+2024-07-27 08:17:49 - ERROR - Error while processing request
+2024-07-27 08:17:54 - DEBUG - User logged out
+2024-07-27 08:17:59 - INFO - User logged in
+2024-07-27 08:18:04 - INFO - Error while processing request
+2024-07-27 08:18:09 - INFO - File not found
+2024-07-27 08:18:14 - INFO - User logged in
+2024-07-27 08:18:19 - DEBUG - Error while processing request
+2024-07-27 08:18:24 - DEBUG - User logged in
+2024-07-27 08:18:29 - DEBUG - User logged out
+2024-07-27 08:18:34 - ERROR - Data saved successfully
+2024-07-27 08:18:39 - WARNING - Data saved successfully
+2024-07-27 08:18:44 - WARNING - User logged in
+2024-07-27 08:18:49 - ERROR - Reconnected to the server
+2024-07-27 08:18:54 - ERROR - Data saved successfully
+2024-07-27 08:18:59 - ERROR - Error while processing request
+2024-07-27 08:19:04 - ERROR - Reconnected to the server
+2024-07-27 08:19:09 - INFO - User logged in
+2024-07-27 08:19:14 - ERROR - Data saved successfully
+2024-07-27 08:19:19 - INFO - User logged in
+2024-07-27 08:19:24 - ERROR - Data saved successfully
+2024-07-27 08:19:29 - DEBUG - Reconnected to the server
+2024-07-27 08:19:34 - ERROR - Error while processing request
+2024-07-27 08:19:39 - DEBUG - Connection lost
+2024-07-27 08:19:44 - DEBUG - User logged out
+2024-07-27 08:19:49 - DEBUG - Error while processing request
+2024-07-27 08:19:54 - DEBUG - Reconnected to the server
+2024-07-27 08:19:59 - INFO - Data saved successfully
+2024-07-27 08:20:04 - ERROR - Connection lost
+2024-07-27 08:20:09 - ERROR - Connection lost
+2024-07-27 08:20:14 - ERROR - Error while processing request
+2024-07-27 08:20:19 - DEBUG - Connection lost
+2024-07-27 08:20:24 - INFO - File not found
+2024-07-27 08:20:29 - INFO - File not found
+2024-07-27 08:20:34 - WARNING - User logged in
+2024-07-27 08:20:39 - ERROR - File not found
+2024-07-27 08:20:44 - INFO - Error while processing request
+2024-07-27 08:20:49 - INFO - File not found
+2024-07-27 08:20:54 - ERROR - Data saved successfully
+2024-07-27 08:20:59 - WARNING - Reconnected to the server
+2024-07-27 08:21:04 - INFO - User logged in
+2024-07-27 08:21:09 - INFO - Data saved successfully
+2024-07-27 08:21:14 - ERROR - User logged in
+2024-07-27 08:21:19 - DEBUG - File not found
+2024-07-27 08:21:24 - WARNING - User logged out
+2024-07-27 08:21:29 - WARNING - Error while processing request
+2024-07-27 08:21:34 - WARNING - Error while processing request
+2024-07-27 08:21:39 - INFO - Connection lost
+2024-07-27 08:21:44 - INFO - Error while processing request
+2024-07-27 08:21:49 - WARNING - Error while processing request
+2024-07-27 08:21:54 - INFO - Reconnected to the server
+2024-07-27 08:21:59 - DEBUG - Error while processing request
+2024-07-27 08:22:04 - WARNING - Error while processing request
+2024-07-27 08:22:09 - WARNING - User logged in
+2024-07-27 08:22:14 - ERROR - Error while processing request
+2024-07-27 08:22:19 - ERROR - Error while processing request
+2024-07-27 08:22:24 - WARNING - Reconnected to the server
+2024-07-27 08:22:29 - INFO - Error while processing request
+2024-07-27 08:22:34 - DEBUG - Connection lost
+2024-07-27 08:22:39 - ERROR - File not found
+2024-07-27 08:22:44 - WARNING - Error while processing request
+2024-07-27 08:22:49 - INFO - Error while processing request
+2024-07-27 08:22:54 - INFO - User logged out
+2024-07-27 08:22:59 - ERROR - Data saved successfully
+2024-07-27 08:23:04 - INFO - Data saved successfully
+2024-07-27 08:23:09 - WARNING - Reconnected to the server
+2024-07-27 08:23:14 - ERROR - Reconnected to the server
+2024-07-27 08:23:19 - DEBUG - User logged in
